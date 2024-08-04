@@ -1,0 +1,3494 @@
+2024-08-03 22:01:06 [INFO] Question: how many rows of data are there?
+2024-08-03 22:01:06 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:01:06 [INFO] Prompt ID: 7f940c37-33ed-4c47-a586-559ce59e2780
+2024-08-03 22:01:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:01:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:01:06 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:01:06 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:01:06 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1111,Campaign: 2022-07-14,2022-07-14,49,4,3,933.0,1886.0,1125.0,1586.0,1077.0,1527.0,18046.0,17390.0,632,165
+725,Campaign: 2019-08-21,2019-08-21,37,3,4,1459.0,1643.0,1546.0,1269.0,1021.0,1452.0,19596.0,18963.0,1484,99
+700,Campaign: 2021-03-03,2021-03-03,29,4,4,1496.0,1739.0,485.0,1049.0,666.0,720.0,14224.0,14196.0,1821,145
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many rows of data are there?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:01:06 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:01:06 [INFO] Retrying request to /chat/completions in 0.776379 seconds
+2024-08-03 22:01:07 [INFO] Retrying request to /chat/completions in 1.989604 seconds
+2024-08-03 22:01:09 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:03:11 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:03:11 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:03:11 [INFO] Prompt ID: 65cf3976-7a2a-4b86-94d9-1903ebb05aa9
+2024-08-03 22:03:11 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:03:11 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:03:11 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:03:11 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:03:11 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+507,Campaign: 2022-07-10,2022-07-10,38,3,2,1086.0,1966.0,1342.0,1390.0,1762.0,875.0,18595.0,19264.0,685,194
+1506,Campaign: 2024-09-21,2024-09-21,22,1,2,1137.0,1459.0,1178.0,1648.0,1615.0,1243.0,18388.0,0.0,0,0
+1185,Campaign: 2020-08-18,2020-08-18,34,5,4,1251.0,1402.0,937.0,1751.0,930.0,1368.0,16874.0,17881.0,1599,101
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:03:11 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:03:11 [INFO] Retrying request to /chat/completions in 0.874975 seconds
+2024-08-03 22:03:12 [INFO] Retrying request to /chat/completions in 1.653883 seconds
+2024-08-03 22:03:14 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:10:07 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:10:07 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:10:07 [INFO] Prompt ID: d4bd60d0-8a8c-42ad-8e82-33b5b8abe7dd
+2024-08-03 22:10:07 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:10:07 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:10:07 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:10:07 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:10:07 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1328,Campaign: 2024-02-03,2024-02-03,12,1,5,1310.0,633.0,781.0,1223.0,611.0,1265.0,13257.0,0.0,0,0
+1349,Campaign: 2019-07-07,2019-07-07,42,3,2,1667.0,1839.0,1582.0,1644.0,936.0,1627.0,21648.0,23076.0,536,90
+1122,Campaign: 2024-11-02,2024-11-02,10,4,1,1561.0,886.0,782.0,1269.0,1507.0,1222.0,16450.0,0.0,0,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:10:07 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:10:07 [INFO] Retrying request to /chat/completions in 0.811330 seconds
+2024-08-03 22:10:08 [INFO] Retrying request to /chat/completions in 1.593735 seconds
+2024-08-03 22:10:09 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:10:46 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:10:46 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:10:46 [INFO] Prompt ID: 73cd0a3f-41cf-43d7-9609-1b64bc02bdfd
+2024-08-03 22:10:46 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:10:46 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:10:46 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:10:46 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:10:46 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1545,Campaign: 2019-07-24,2019-07-24,42,3,1,1495.0,1605.0,1187.0,1510.0,1863.0,1059.0,19144.0,18608.0,674,153
+1,Campaign: 2019-12-18,2019-12-18,33,5,1,1203.0,1637.0,1618.0,1300.0,1817.0,1539.0,21181.0,20854.0,1097,200
+1889,Campaign: 2022-01-20,2022-01-20,25,4,4,620.0,802.0,709.0,1023.0,718.0,1247.0,11240.0,11529.0,533,146
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:10:46 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:10:46 [INFO] Retrying request to /chat/completions in 0.852066 seconds
+2024-08-03 22:10:47 [INFO] Retrying request to /chat/completions in 1.704957 seconds
+2024-08-03 22:10:49 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:12:06 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:12:06 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:12:06 [INFO] Prompt ID: 9613223b-afe1-4200-a9cf-fcd1514d8766
+2024-08-03 22:12:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:12:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:12:06 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:12:06 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:12:06 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1626,Campaign: 2024-01-16,2024-01-16,14,3,3,901.0,458.0,753.0,1487.0,1098.0,758.0,11911.0,11576.0,1772,90
+855,Campaign: 2018-10-11,2018-10-11,44,5,2,1600.0,1223.0,1992.0,1371.0,2089.0,2249.0,23711.0,24607.0,1618,177
+596,Campaign: 2018-11-20,2018-11-20,56,3,4,1110.0,1817.0,1412.0,1752.0,1534.0,1869.0,21701.0,20128.0,862,93
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:12:06 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:12:06 [INFO] Retrying request to /chat/completions in 0.856254 seconds
+2024-08-03 22:12:07 [INFO] Retrying request to /chat/completions in 1.818066 seconds
+2024-08-03 22:12:09 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:16:29 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:16:29 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:16:29 [INFO] Prompt ID: a60c05f7-6aae-4bc1-840d-41f879e95a2d
+2024-08-03 22:16:29 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:16:29 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:16:29 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:16:29 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:16:29 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+87,Campaign: 2020-11-07,2020-11-07,43,2,5,1297.0,1429.0,1886.0,1595.0,1753.0,1018.0,20335.0,20624.0,1338,62
+199,Campaign: 2023-12-04,2023-12-04,49,5,5,1037.0,2003.0,1321.0,1271.0,1818.0,1395.0,19613.0,19308.0,613,102
+688,Campaign: 2022-11-03,2022-11-03,54,4,3,1775.0,1526.0,1733.0,1793.0,1099.0,1709.0,20745.0,21340.0,861,78
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:16:29 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:16:29 [INFO] Retrying request to /chat/completions in 0.891217 seconds
+2024-08-03 22:16:30 [INFO] Retrying request to /chat/completions in 1.902099 seconds
+2024-08-03 22:16:32 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:19:34 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:19:34 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:19:34 [INFO] Prompt ID: 209f2f45-a7d3-4457-ae4e-48ebe3299b62
+2024-08-03 22:19:34 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:19:34 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:19:34 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:19:34 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:19:34 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1781,Campaign: 2019-04-15,2019-04-15,17,1,3,1304.0,1654.0,1523.0,788.0,1431.0,707.0,14851.0,13699.0,1278,56
+849,Campaign: 2020-04-06,2020-04-06,26,1,3,1596.0,1902.0,783.0,1220.0,1257.0,826.0,17556.0,17907.0,1198,93
+754,Campaign: 2023-02-23,2023-02-23,21,3,4,575.0,927.0,1146.0,1113.0,1148.0,1190.0,14390.0,14745.0,944,136
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:19:34 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:19:34 [INFO] Retrying request to /chat/completions in 0.913027 seconds
+2024-08-03 22:19:35 [INFO] Retrying request to /chat/completions in 1.751429 seconds
+2024-08-03 22:19:37 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:21:51 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:21:51 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:21:51 [INFO] Prompt ID: cd4bb400-c661-4be2-bc9b-1b19fe0bebe3
+2024-08-03 22:21:51 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:21:51 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:21:51 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:21:51 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:21:51 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1846,Campaign: 2019-11-20,2019-11-20,37,3,2,1176.0,1670.0,1863.0,1781.0,1273.0,1186.0,20150.0,19296.0,944,87
+887,Campaign: 2019-11-07,2019-11-07,11,2,5,955.0,927.0,1838.0,1158.0,748.0,1203.0,13696.0,13807.0,1985,65
+1409,Campaign: 2019-12-05,2019-12-05,48,3,5,1354.0,1312.0,1150.0,1433.0,1887.0,1052.0,17710.0,17517.0,1870,133
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:21:51 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:21:51 [INFO] Retrying request to /chat/completions in 0.945835 seconds
+2024-08-03 22:21:52 [INFO] Retrying request to /chat/completions in 1.784653 seconds
+2024-08-03 22:21:53 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:22:59 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:22:59 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:22:59 [INFO] Prompt ID: 7acccb40-22bc-41f4-835d-9ebd1541daae
+2024-08-03 22:22:59 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:22:59 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:22:59 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:22:59 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:22:59 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+241,Campaign: 2019-06-22,2019-06-22,60,4,1,1686.0,940.0,1066.0,1817.0,1465.0,1241.0,17886.0,18453.0,1262,174
+206,Campaign: 2023-04-06,2023-04-06,57,3,2,1609.0,1589.0,1550.0,1509.0,1490.0,1363.0,20056.0,19225.0,1726,104
+1011,Campaign: 2019-11-07,2019-11-07,60,1,1,1642.0,1060.0,2321.0,1788.0,1680.0,1770.0,22364.0,22320.0,1337,76
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:22:59 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:22:59 [INFO] Retrying request to /chat/completions in 0.756595 seconds
+2024-08-03 22:22:59 [INFO] Retrying request to /chat/completions in 1.603991 seconds
+2024-08-03 22:23:01 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:23:16 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:23:16 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:23:16 [INFO] Prompt ID: df361529-ecc5-4beb-8e6d-a2db7a24ceb1
+2024-08-03 22:23:16 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:23:16 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:23:16 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:23:16 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:23:16 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1506,Campaign: 2024-09-21,2024-09-21,22,1,2,1137.0,1459.0,1178.0,1648.0,1615.0,1243.0,18388.0,0.0,0,0
+1156,Campaign: 2020-07-01,2020-07-01,24,1,1,1521.0,913.0,1300.0,1967.0,872.0,1528.0,17807.0,17841.0,1162,186
+938,Campaign: 2018-07-06,2018-07-06,26,3,1,1067.0,1125.0,1142.0,1142.0,1425.0,790.0,14542.0,16512.0,1111,78
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:23:16 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:23:16 [INFO] Retrying request to /chat/completions in 0.939934 seconds
+2024-08-03 22:23:17 [INFO] Retrying request to /chat/completions in 1.878834 seconds
+2024-08-03 22:23:19 [ERROR] Pipeline failed on step 3: Connection error.
+2024-08-03 22:25:10 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:25:10 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:25:10 [INFO] Prompt ID: 407435ba-6ef9-45d7-9fb0-28018fa3d366
+2024-08-03 22:25:10 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:25:10 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:25:10 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:25:10 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:25:10 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1568,Campaign: 2019-01-09,2019-01-09,35,1,1,1529.0,2011.0,1514.0,1661.0,1108.0,1045.0,18528.0,17806.0,1997,136
+495,Campaign: 2019-10-16,2019-10-16,39,5,4,1301.0,1461.0,1180.0,1588.0,1330.0,1358.0,18448.0,18593.0,1988,170
+1586,Campaign: 2019-01-22,2019-01-22,39,1,1,2286.0,2402.0,1325.0,1513.0,1333.0,2111.0,23776.0,21688.0,1536,187
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:25:10 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:25:10 [ERROR] Pipeline failed on step 3: Completions.create() got an unexpected keyword argument 'verify_ssl'
+2024-08-03 22:27:39 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:27:39 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:27:39 [INFO] Prompt ID: 2cc2eb78-18f8-4874-aa3f-97475089cf37
+2024-08-03 22:27:39 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:27:39 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:27:39 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:27:39 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:27:39 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1565,Campaign: 2024-08-14,2024-08-14,52,4,1,1669.0,1517.0,1339.0,1544.0,1507.0,1685.0,21411.0,0.0,0,0
+442,Campaign: 2019-09-09,2019-09-09,16,3,1,974.0,554.0,786.0,1005.0,1171.0,1121.0,13033.0,13741.0,1274,102
+731,Campaign: 2023-08-01,2023-08-01,48,1,5,2415.0,1606.0,2048.0,1335.0,1452.0,1897.0,23794.0,23707.0,658,87
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:27:39 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:27:39 [INFO] HTTP Request: POST http://localhost:11434/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:27:39 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:28:43 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:28:43 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:28:43 [INFO] Prompt ID: 704d397d-80c3-4c86-aca5-ce2ced3f7d39
+2024-08-03 22:28:43 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:28:43 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:28:43 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:28:43 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:28:43 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1259,Campaign: 2018-10-15,2018-10-15,41,2,2,2245.0,2199.0,1883.0,1447.0,1872.0,1185.0,25163.0,22843.0,1261,143
+1057,Campaign: 2021-06-28,2021-06-28,58,5,2,960.0,1682.0,1739.0,2036.0,1073.0,1213.0,19874.0,20513.0,947,54
+1996,Campaign: 2021-11-28,2021-11-28,20,3,4,729.0,1160.0,1535.0,1218.0,1696.0,1103.0,16686.0,17395.0,644,183
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:28:43 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:28:43 [INFO] HTTP Request: POST http://localhost:11434/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:28:43 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:30:10 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:30:10 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:30:10 [INFO] Prompt ID: de5aff1c-9e2b-4de6-b846-e2db6d9d996b
+2024-08-03 22:30:10 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:30:10 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:30:10 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:30:10 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:30:10 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+679,Campaign: 2021-12-23,2021-12-23,46,1,1,1866.0,1712.0,2012.0,1771.0,1917.0,1351.0,23629.0,23125.0,1918,187
+1619,Campaign: 2021-03-24,2021-03-24,48,5,4,964.0,1309.0,1008.0,1522.0,1197.0,1170.0,16271.0,16031.0,1802,67
+1189,Campaign: 2019-04-04,2019-04-04,11,2,4,1960.0,1211.0,1163.0,1050.0,1430.0,1484.0,17120.0,17067.0,624,64
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:30:10 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:30:10 [INFO] HTTP Request: POST http://localhost:11434/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:30:10 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:37:06 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:37:06 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:37:06 [INFO] Prompt ID: 3493a1ba-355f-487d-8993-816b92839632
+2024-08-03 22:37:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:37:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:37:06 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:37:06 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:37:06 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+862,Campaign: 2020-11-07,2020-11-07,32,4,3,1434.0,1491.0,1599.0,1896.0,1294.0,1237.0,21516.0,21281.0,1152,162
+1237,Campaign: 2018-06-20,2018-06-20,60,2,1,1509.0,2146.0,2102.0,1689.0,1739.0,1845.0,23407.0,24509.0,1925,171
+1145,Campaign: 2018-11-27,2018-11-27,60,3,4,1391.0,1539.0,1296.0,1736.0,1238.0,2082.0,21163.0,21227.0,1301,130
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:37:06 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:37:06 [INFO] HTTP Request: POST http://localhost:11434/api/generate/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:37:06 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:43:13 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:43:13 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:43:13 [INFO] Prompt ID: ee70b9fd-f3ed-4972-86c2-578f547a5fda
+2024-08-03 22:43:13 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:43:13 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:43:13 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:43:13 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:43:13 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1170,Campaign: 2021-11-20,2021-11-20,39,3,2,1155.0,1520.0,1092.0,1316.0,1713.0,1115.0,18023.0,18829.0,1558,95
+825,Campaign: 2023-04-01,2023-04-01,10,4,5,1041.0,1085.0,758.0,1509.0,507.0,1033.0,12946.0,12689.0,1798,194
+874,Campaign: 2021-11-08,2021-11-08,53,4,3,828.0,1329.0,1687.0,1315.0,1816.0,1541.0,19727.0,19354.0,1564,113
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:43:13 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:43:13 [INFO] HTTP Request: POST http://localhost:11434/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:43:13 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:44:59 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:44:59 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:44:59 [INFO] Prompt ID: fbff9fd4-efd1-4bdd-a217-6dc4cd2e9b81
+2024-08-03 22:44:59 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:44:59 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:44:59 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:44:59 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:44:59 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+795,Campaign: 2022-02-02,2022-02-02,28,2,1,857.0,1701.0,642.0,967.0,1579.0,1424.0,16180.0,16482.0,1025,182
+1290,Campaign: 2021-07-01,2021-07-01,18,5,3,1189.0,1069.0,1020.0,561.0,882.0,561.0,12229.0,12130.0,1736,60
+1037,Campaign: 2018-06-12,2018-06-12,39,1,4,1494.0,1662.0,1166.0,1309.0,2348.0,2104.0,23965.0,24008.0,1538,74
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:44:59 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:45:00 [INFO] HTTP Request: POST http://localhost:11434/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 22:45:00 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-03 22:47:07 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:47:07 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:47:07 [INFO] Prompt ID: 92e0d8fe-e9b5-4d66-bcae-2f321888cfc8
+2024-08-03 22:47:07 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:47:07 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:47:07 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:47:07 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:47:07 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+427,Campaign: 2024-12-07,2024-12-07,60,4,3,1238.0,2078.0,1671.0,1655.0,1274.0,1158.0,21008.0,0.0,0,0
+935,Campaign: 2023-12-13,2023-12-13,33,2,1,1200.0,2512.0,1443.0,2161.0,1592.0,1844.0,23011.0,22656.0,779,78
+1431,Campaign: 2022-12-24,2022-12-24,18,2,1,937.0,1089.0,1331.0,865.0,1621.0,1477.0,15865.0,16087.0,1912,191
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:47:07 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:47:07 [ERROR] Pipeline failed on step 3: 'Completions' object has no attribute 'post'
+2024-08-03 22:47:56 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:47:56 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:47:56 [INFO] Prompt ID: 49d56993-5265-46dc-b8f8-1a32f3cc40f1
+2024-08-03 22:47:56 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:47:56 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:47:56 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:47:56 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:47:56 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+596,Campaign: 2018-11-20,2018-11-20,56,3,4,1110.0,1817.0,1412.0,1752.0,1534.0,1869.0,21701.0,20128.0,862,93
+1349,Campaign: 2019-07-07,2019-07-07,42,3,2,1667.0,1839.0,1582.0,1644.0,936.0,1627.0,21648.0,23076.0,536,90
+1988,Campaign: 2023-01-04,2023-01-04,23,4,1,822.0,1337.0,1228.0,891.0,1075.0,1220.0,15084.0,14833.0,814,188
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:47:56 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:47:56 [ERROR] Pipeline failed on step 3: 'CustomLocalLLM' object has no attribute 'api_base'
+2024-08-03 22:48:58 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:48:58 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:48:58 [INFO] Prompt ID: db45f272-a79a-48a2-b70a-20eee847a63a
+2024-08-03 22:48:58 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:48:58 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:48:58 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:48:58 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:48:58 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1618,Campaign: 2019-07-07,2019-07-07,34,2,3,1857.0,1849.0,2102.0,1918.0,1300.0,2418.0,26175.0,25947.0,1099,64
+1034,Campaign: 2024-01-27,2024-01-27,34,1,5,1170.0,1316.0,1358.0,1855.0,1757.0,1708.0,20746.0,2438.0,117,11
+1511,Campaign: 2022-03-28,2022-03-28,44,4,2,1670.0,1247.0,956.0,2014.0,1604.0,1815.0,20808.0,21913.0,950,92
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:48:58 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:48:58 [ERROR] Pipeline failed on step 3: 'CustomLocalLLM' object has no attribute 'api_base'
+2024-08-03 22:50:04 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:50:04 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:50:04 [INFO] Prompt ID: 4a59aeaf-3b90-45b2-991f-e7fe625585d3
+2024-08-03 22:50:04 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:50:04 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:50:04 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:50:04 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:50:04 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+2011,Test Campaign 567,2024-03-31,60,4,4,1000.0,1100.0,1200.0,1300.0,1500.0,2000.0,18227.745321343726,0.0,0,0
+1803,Campaign: 2018-10-15,2018-10-15,13,5,4,1178.0,829.0,1499.0,1112.0,975.0,556.0,13902.0,13754.0,1818,140
+1972,Campaign: 2023-09-23,2023-09-23,59,3,1,1937.0,1181.0,1706.0,1451.0,886.0,1524.0,20265.0,19969.0,1042,199
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:50:04 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:50:04 [ERROR] Pipeline failed on step 3: Object of type Memory is not JSON serializable
+2024-08-03 22:51:21 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:51:21 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:51:21 [INFO] Prompt ID: 982641d8-2abc-401d-b62f-8f56b139a4b9
+2024-08-03 22:51:21 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:51:21 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:51:21 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:51:21 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:51:21 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+643,Campaign: 2023-02-21,2023-02-21,47,3,5,1630.0,1528.0,1468.0,1819.0,1076.0,1079.0,19224.0,19854.0,702,188
+237,Campaign: 2021-04-28,2021-04-28,50,4,1,1259.0,1313.0,2005.0,1807.0,1539.0,1435.0,21431.0,21752.0,1375,197
+1400,Campaign: 2024-04-06,2024-04-06,36,3,4,1883.0,1407.0,1354.0,1942.0,1761.0,1156.0,21616.0,0.0,0,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:51:21 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:51:21 [ERROR] Pipeline failed on step 3: Object of type Memory is not JSON serializable
+2024-08-03 22:51:59 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:51:59 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:51:59 [INFO] Prompt ID: 1ee036f0-8824-437b-8e67-c44d975628d7
+2024-08-03 22:51:59 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:51:59 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:51:59 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:51:59 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:51:59 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+915,Campaign: 2018-01-26,2018-01-26,22,1,3,848.0,878.0,896.0,1768.0,1226.0,1387.0,16897.0,16428.0,1447,183
+1900,Campaign: 2022-09-26,2022-09-26,30,1,1,1423.0,1295.0,1425.0,1858.0,1159.0,1268.0,18051.0,17785.0,1989,127
+854,Campaign: 2021-03-14,2021-03-14,37,2,5,2131.0,1475.0,1519.0,1859.0,1350.0,1767.0,22893.0,21644.0,832,156
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:51:59 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:52:07 [ERROR] Pipeline failed on step 3: expected string or bytes-like object
+2024-08-03 22:53:09 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:53:09 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:53:09 [INFO] Prompt ID: f8df1bc8-6b12-4445-89dc-6a8159f327b7
+2024-08-03 22:53:09 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:53:09 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:53:09 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:53:09 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:53:09 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1169,Campaign: 2020-06-11,2020-06-11,37,1,2,1182.0,2217.0,1670.0,1497.0,1439.0,1961.0,20901.0,20093.0,740,83
+759,Campaign: 2024-10-09,2024-10-09,45,5,4,425.0,1472.0,924.0,1541.0,947.0,676.0,13469.479422083245,0.0,0,0
+407,Campaign: 2023-09-10,2023-09-10,35,2,1,1266.0,1569.0,2142.0,1579.0,1833.0,2073.0,22544.0,21739.0,1847,181
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:53:09 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:53:16 [ERROR] Pipeline failed on step 3: name 're' is not defined
+2024-08-03 22:54:02 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 22:54:02 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:54:02 [INFO] Prompt ID: cf310100-2b9c-401d-88dc-2f0082eb7d16
+2024-08-03 22:54:02 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:54:02 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:54:02 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:54:02 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:54:02 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1695,Campaign: 2023-06-22,2023-06-22,46,1,5,1916.0,2065.0,2052.0,1711.0,1243.0,1238.0,20248.0,19280.0,906,133
+346,Campaign: 2020-03-08,2020-03-08,25,4,5,1156.0,855.0,524.0,1233.0,903.0,666.0,11429.0,10506.0,1840,159
+1165,Campaign: 2023-07-16,2023-07-16,46,2,2,2084.0,1528.0,1869.0,1657.0,2158.0,1151.0,24131.0,23023.0,1263,154
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:54:02 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:54:09 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1695,Campaign: 2023-06-22,2023-06-22,46,1,5,1916.0,2065.0,2052.0,1711.0,1243.0,1238.0,20248.0,19280.0,906,133
+346,Campaign: 2020-03-08,2020-03-08,25,4,5,1156.0,855.0,524.0,1233.0,903.0,666.0,11429.0,10506.0,1840,159
+1165,Campaign: 2023-07-16,2023-07-16,46,2,2,2084.0,1528.0,1869.0,1657.0,2158.0,1151.0,24131.0,23023.0,1263,154
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2019?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 22:54:09 [INFO] Code generated:
+            ```
+            Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+            ```
+            
+2024-08-03 22:54:09 [INFO] Executing Step 4: CachePopulation
+2024-08-03 22:54:09 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 22:54:09 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 22:54:09 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 22:54:09 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1695,Campaign: 2023-06-22,2023-06-22,46,1,5,1916.0,2065.0,2052.0,1711.0,1243.0,1238.0,20248.0,19280.0,906,133
+346,Campaign: 2020-03-08,2020-03-08,25,4,5,1156.0,855.0,524.0,1233.0,903.0,666.0,11429.0,10506.0,1840,159
+1165,Campaign: 2023-07-16,2023-07-16,46,2,2,2084.0,1528.0,1869.0,1657.0,2158.0,1151.0,24131.0,23023.0,1263,154
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 22
+    result["type
+           ^
+SyntaxError: unterminated string literal (detected at line 22)
+
+
+Fix the python code above and return the new python code:
+2024-08-03 22:54:09 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 22:54:17 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1695,Campaign: 2023-06-22,2023-06-22,46,1,5,1916.0,2065.0,2052.0,1711.0,1243.0,1238.0,20248.0,19280.0,906,133
+346,Campaign: 2020-03-08,2020-03-08,25,4,5,1156.0,855.0,524.0,1233.0,903.0,666.0,11429.0,10506.0,1840,159
+1165,Campaign: 2023-07-16,2023-07-16,46,2,2,2084.0,1528.0,1869.0,1657.0,2158.0,1151.0,24131.0,23023.0,1263,154
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 22
+    result["type
+           ^
+SyntaxError: unterminated string literal (detected at line 22)
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 22:54:17 [INFO] Code generated:
+            ```
+            The error is caused by an incorrect syntax in the last line of your python code. We should assign the type to the "type" key in the dictionary as well.
+
+Here's the corrected python code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "value-count",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+            ```
+            
+2024-08-03 22:54:17 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 22:54:17 [ERROR] Pipeline failed on step 2: unterminated string literal (detected at line 3) (<unknown>, line 3)
+2024-08-03 22:54:17 [ERROR] Pipeline failed on step 5: unterminated string literal (detected at line 3) (<unknown>, line 3)
+2024-08-03 22:55:57 [INFO] Question: write the first 5 rows
+2024-08-03 22:55:57 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:55:57 [INFO] Prompt ID: 01946651-e88d-4325-a263-e266bb4efba4
+2024-08-03 22:55:57 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:55:57 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:55:57 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:55:57 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:55:57 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+403,Campaign: 2024-01-08,2024-01-08,20,3,1,636.0,1072.0,622.0,684.0,618.0,1206.0,10368.0,10500.0,1238,153
+28,Campaign: 2018-01-26,2018-01-26,46,3,5,1619.0,925.0,2061.0,1586.0,1644.0,2085.0,22076.0,21067.0,841,188
+933,Campaign: 2020-04-26,2020-04-26,47,3,5,1679.0,2136.0,1394.0,2114.0,1756.0,1584.0,23237.0,24215.0,846,119
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ write the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:55:57 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:56:05 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+403,Campaign: 2024-01-08,2024-01-08,20,3,1,636.0,1072.0,622.0,684.0,618.0,1206.0,10368.0,10500.0,1238,153
+28,Campaign: 2018-01-26,2018-01-26,46,3,5,1619.0,925.0,2061.0,1586.0,1644.0,2085.0,22076.0,21067.0,841,188
+933,Campaign: 2020-04-26,2020-04-26,47,3,5,1679.0,2136.0,1394.0,2114.0,1756.0,1584.0,23237.0,24215.0,846,119
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ write the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 22:56:05 [INFO] Code generated:
+            ```
+            Here's the full Python code which accomplishes everything specified:
+
+```python
+# Importing required libraries
+import pandas as pd
+from tabulate import tabulate  # For pretty printing dataframes.
+
+dfs = [pd.DataFrame({ 
+'row_number': [...list to match your values],
+'id': ['403', '28', '933'],  # your id (matching column number)
+'name': ['Campaign: 2024-01-08', 'Campaign' + str('s 2018'), "Campaign"  ] ,
+'start_date': ["", '',''], 
+'duration': [20, 46,''],
+'customer_segment_id':[3,3 ,5] ,
+'target_audience_id ':'[5
+            ```
+            
+2024-08-03 22:56:05 [INFO] Executing Step 4: CachePopulation
+2024-08-03 22:56:05 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 22:56:05 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 22:56:05 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 22:56:05 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+403,Campaign: 2024-01-08,2024-01-08,20,3,1,636.0,1072.0,622.0,684.0,618.0,1206.0,10368.0,10500.0,1238,153
+28,Campaign: 2018-01-26,2018-01-26,46,3,5,1619.0,925.0,2061.0,1586.0,1644.0,2085.0,22076.0,21067.0,841,188
+933,Campaign: 2020-04-26,2020-04-26,47,3,5,1679.0,2136.0,1394.0,2114.0,1756.0,1584.0,23237.0,24215.0,846,119
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ write the first 5 rows
+
+You generated this python code:
+Here's the full Python code which accomplishes everything specified:
+
+```python
+# Importing required libraries
+import pandas as pd
+from tabulate import tabulate  # For pretty printing dataframes.
+
+dfs = [pd.DataFrame({ 
+'row_number': [...list to match your values],
+'id': ['403', '28', '933'],  # your id (matching column number)
+'name': ['Campaign: 2024-01-08', 'Campaign' + str('s 2018'), "Campaign"  ] ,
+'start_date': ["", '',''], 
+'duration': [20, 46,''],
+'customer_segment_id':[3,3 ,5] ,
+'target_audience_id ':'[5
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here's the full Python code which accomplishes everything specified:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+
+
+Fix the python code above and return the new python code:
+2024-08-03 22:56:05 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 22:56:13 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+403,Campaign: 2024-01-08,2024-01-08,20,3,1,636.0,1072.0,622.0,684.0,618.0,1206.0,10368.0,10500.0,1238,153
+28,Campaign: 2018-01-26,2018-01-26,46,3,5,1619.0,925.0,2061.0,1586.0,1644.0,2085.0,22076.0,21067.0,841,188
+933,Campaign: 2020-04-26,2020-04-26,47,3,5,1679.0,2136.0,1394.0,2114.0,1756.0,1584.0,23237.0,24215.0,846,119
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ write the first 5 rows
+
+You generated this python code:
+Here's the full Python code which accomplishes everything specified:
+
+```python
+# Importing required libraries
+import pandas as pd
+from tabulate import tabulate  # For pretty printing dataframes.
+
+dfs = [pd.DataFrame({ 
+'row_number': [...list to match your values],
+'id': ['403', '28', '933'],  # your id (matching column number)
+'name': ['Campaign: 2024-01-08', 'Campaign' + str('s 2018'), "Campaign"  ] ,
+'start_date': ["", '',''], 
+'duration': [20, 46,''],
+'customer_segment_id':[3,3 ,5] ,
+'target_audience_id ':'[5
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here's the full Python code which accomplishes everything specified:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 22:56:13 [INFO] Code generated:
+            ```
+            The issue with your code is that you're missing closing quote marks, and in Python, a string cannot be split across lines without keeping quotes on same sides. I'll also format your new output to match requested specification closely:
+
+Here's the corrected full Python code which accomplishes everything specified:
+
+```python
+# Importing required libraries
+import pandas as pd
+
+def write_full_dataframe_dfs(dfs,context=None):
+  # Define output for pretty table in here and elsewhere
+    output='\n'.join(map(str, dfs))
+
+# Load example dataframe into the context using a Dataframe in this function or anywhere.
+  
+  if("dataframe_name=" not in str(context)):
+        data = pd.DataFrame({
+          'id': ['403','
+            ```
+            
+2024-08-03 22:56:13 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 22:56:13 [ERROR] Pipeline failed on step 2: unterminated string literal (detected at line 3) (<unknown>, line 3)
+2024-08-03 22:56:13 [ERROR] Pipeline failed on step 5: unterminated string literal (detected at line 3) (<unknown>, line 3)
+2024-08-03 22:56:44 [INFO] Question: return the first 5 rows
+2024-08-03 22:56:44 [INFO] Running PandasAI with local LLM...
+2024-08-03 22:56:44 [INFO] Prompt ID: 3c1ce318-7d18-4c10-80c9-58bfa6d619fe
+2024-08-03 22:56:44 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 22:56:44 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 22:56:44 [INFO] Executing Step 1: CacheLookup
+2024-08-03 22:56:44 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 22:56:44 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+474,Campaign: 2018-07-15,2018-07-15,21,1,3,1394.0,1538.0,859.0,1266.0,1524.0,1207.0,16028.0,16453.0,1462,173
+1988,Campaign: 2023-01-04,2023-01-04,23,4,1,822.0,1337.0,1228.0,891.0,1075.0,1220.0,15084.0,14833.0,814,188
+211,Campaign: 2020-09-04,2020-09-04,36,4,3,1413.0,1417.0,1111.0,1454.0,1717.0,1896.0,21572.0,22399.0,1998,132
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ return the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 22:56:44 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 22:56:51 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+474,Campaign: 2018-07-15,2018-07-15,21,1,3,1394.0,1538.0,859.0,1266.0,1524.0,1207.0,16028.0,16453.0,1462,173
+1988,Campaign: 2023-01-04,2023-01-04,23,4,1,822.0,1337.0,1228.0,891.0,1075.0,1220.0,15084.0,14833.0,814,188
+211,Campaign: 2020-09-04,2020-09-04,36,4,3,1413.0,1417.0,1111.0,1454.0,1717.0,1896.0,21572.0,22399.0,1998,132
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ return the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 22:56:51 [INFO] Code generated:
+            ```
+            Here is the updated code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Declare variable dfs - contains list of DataFrames: 
+dataframes = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21,23,36],
+    'customer_segment_id':[1,4,4],
+    'target_audience_id':[3,1,3],
+
+            ```
+            
+2024-08-03 22:56:51 [INFO] Executing Step 4: CachePopulation
+2024-08-03 22:56:51 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 22:56:51 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 22:56:51 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 22:56:51 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+474,Campaign: 2018-07-15,2018-07-15,21,1,3,1394.0,1538.0,859.0,1266.0,1524.0,1207.0,16028.0,16453.0,1462,173
+1988,Campaign: 2023-01-04,2023-01-04,23,4,1,822.0,1337.0,1228.0,891.0,1075.0,1220.0,15084.0,14833.0,814,188
+211,Campaign: 2020-09-04,2020-09-04,36,4,3,1413.0,1417.0,1111.0,1454.0,1717.0,1896.0,21572.0,22399.0,1998,132
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Here is the updated code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Declare variable dfs - contains list of DataFrames: 
+dataframes = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21,23,36],
+    'customer_segment_id':[1,4,4],
+    'target_audience_id':[3,1,3],
+
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here is the updated code:
+                ^^^^^^^
+SyntaxError: invalid syntax
+
+
+Fix the python code above and return the new python code:
+2024-08-03 22:56:51 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 22:56:59 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+474,Campaign: 2018-07-15,2018-07-15,21,1,3,1394.0,1538.0,859.0,1266.0,1524.0,1207.0,16028.0,16453.0,1462,173
+1988,Campaign: 2023-01-04,2023-01-04,23,4,1,822.0,1337.0,1228.0,891.0,1075.0,1220.0,15084.0,14833.0,814,188
+211,Campaign: 2020-09-04,2020-09-04,36,4,3,1413.0,1417.0,1111.0,1454.0,1717.0,1896.0,21572.0,22399.0,1998,132
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Here is the updated code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Declare variable dfs - contains list of DataFrames: 
+dataframes = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21,23,36],
+    'customer_segment_id':[1,4,4],
+    'target_audience_id':[3,1,3],
+
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here is the updated code:
+                ^^^^^^^
+SyntaxError: invalid syntax
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 22:56:59 [INFO] Code generated:
+            ```
+            The error arises from the incorrect usage of triple backticks in the Python code. To fix this, we need to enclose the multiline string using the triple quotes but also be careful with indentation. Here's the corrected code:
+
+
+```python
+# Importing necessary libraries
+import pandas as pd
+
+
+# Define dataframes and columns.
+dfs = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21
+# Code incomplete, add more to complete the block
+            ```
+            
+2024-08-03 22:56:59 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 22:56:59 [ERROR] Pipeline failed on step 2: unterminated string literal (detected at line 1) (<unknown>, line 1)
+2024-08-03 22:56:59 [ERROR] Pipeline failed on step 5: unterminated string literal (detected at line 1) (<unknown>, line 1)
+2024-08-03 23:02:57 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 23:02:57 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:02:57 [INFO] Prompt ID: c2264b30-63b6-4d8e-8a5c-278e0edab0f9
+2024-08-03 23:02:57 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:02:57 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:02:57 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:02:57 [INFO] Using cached response
+2024-08-03 23:02:57 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:02:57 [INFO] Executing Step 2: Skipping...
+2024-08-03 23:02:57 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:02:57 [INFO] Executing Step 3: Skipping...
+2024-08-03 23:02:57 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:02:57 [INFO] Executing Step 4: Skipping...
+2024-08-03 23:02:57 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:02:57 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:02:57 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:02:57 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1271,Campaign: 2021-02-01,2021-02-01,52,4,3,1530.0,1402.0,1363.0,1046.0,1353.0,1583.0,17970.0,17853.0,629,152
+226,Campaign: 2018-09-11,2018-09-11,55,4,3,1640.0,1451.0,1718.0,2035.0,1123.0,1209.0,19980.0,21459.0,1410,59
+1920,Campaign: 2019-03-12,2019-03-12,48,4,4,1547.0,1586.0,1615.0,1882.0,1080.0,1538.0,20278.0,18731.0,746,159
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 22
+    result["type
+           ^
+SyntaxError: unterminated string literal (detected at line 22)
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:02:57 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:02:57 [INFO] HTTP Request: POST http://localhost:11434/v1/completions/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-03 23:02:57 [ERROR] Pipeline failed on step 1: 404 page not found
+2024-08-03 23:02:57 [ERROR] Pipeline failed on step 5: 404 page not found
+2024-08-03 23:04:35 [INFO] Question: how many campaigns ran in 2019?
+2024-08-03 23:04:35 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:04:35 [INFO] Prompt ID: ac67c593-a4d8-4a3c-97e2-44db659375f3
+2024-08-03 23:04:35 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:04:35 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:04:35 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:04:35 [INFO] Using cached response
+2024-08-03 23:04:35 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:04:35 [INFO] Executing Step 2: Skipping...
+2024-08-03 23:04:35 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:04:35 [INFO] Executing Step 3: Skipping...
+2024-08-03 23:04:35 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:04:35 [INFO] Executing Step 4: Skipping...
+2024-08-03 23:04:35 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:04:35 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:04:35 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:04:35 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1487,Campaign: 2023-03-08,2023-03-08,39,1,5,1367.0,1664.0,2061.0,1587.0,1084.0,1440.0,20095.0,20754.0,613,174
+605,Campaign: 2020-08-23,2020-08-23,58,4,1,1913.0,1470.0,2374.0,1609.0,1719.0,2300.0,27495.0,26172.0,1339,142
+1719,Campaign: 2023-01-10,2023-01-10,53,5,5,1070.0,1426.0,1520.0,2268.0,1229.0,1938.0,20839.0,22863.0,1987,101
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 22
+    result["type
+           ^
+SyntaxError: unterminated string literal (detected at line 22)
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:04:35 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:04:58 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:04:58 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1487,Campaign: 2023-03-08,2023-03-08,39,1,5,1367.0,1664.0,2061.0,1587.0,1084.0,1440.0,20095.0,20754.0,613,174
+605,Campaign: 2020-08-23,2020-08-23,58,4,1,1913.0,1470.0,2374.0,1609.0,1719.0,2300.0,27495.0,26172.0,1339,142
+1719,Campaign: 2023-01-10,2023-01-10,53,5,5,1070.0,1426.0,1520.0,2268.0,1229.0,1938.0,20839.0,22863.0,1987,101
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+Here is the full updated code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+dfs[0] = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 22
+    result["type
+           ^
+SyntaxError: unterminated string literal (detected at line 22)
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:04:58 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assume dfs contains dataframe with campaigns data
+# Define function to filter campaigns by year
+def filter_campaigns(df, year):
+    return df[(df['start_date'].dt.year == year)]
+
+# Define variable declaration for result
+result = {
+    "type": "",  # will be determined later
+    "value": None  # will be populated later
+}
+
+# Filter campaigns that ran in 2019
+filtered_campaigns = filter_campaigns(dfs[0], 2019)
+
+# Save the count of campaigns that ran in 2019 to result variable
+result["type"] = "number"
+result["value"] = filtered_campaigns.shape[0]
+
+print(result)
+            ```
+            
+2024-08-03 23:04:58 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:04:58 [INFO] 
+Code running:
+```
+def filter_campaigns(df, year):
+    return df[df['start_date'].dt.year == year]
+
+
+result = {'type': '', 'value': None}
+filtered_campaigns = filter_campaigns(dfs[0], 2019)
+result['type'] = 'number'
+result['value'] = filtered_campaigns.shape[0]
+print(result)
+        ```
+2024-08-03 23:04:58 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:04:58 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 6, in <module>
+  File "<string>", line 2, in filter_campaigns
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/accessor.py", line 181, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/indexes/accessors.py", line 506, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+2024-08-03 23:04:58 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 23:04:58 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:04:58 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:04:58 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1487,Campaign: 2023-03-08,2023-03-08,39,1,5,1367.0,1664.0,2061.0,1587.0,1084.0,1440.0,20095.0,20754.0,613,174
+605,Campaign: 2020-08-23,2020-08-23,58,4,1,1913.0,1470.0,2374.0,1609.0,1719.0,2300.0,27495.0,26172.0,1339,142
+1719,Campaign: 2023-01-10,2023-01-10,53,5,5,1070.0,1426.0,1520.0,2268.0,1229.0,1938.0,20839.0,22863.0,1987,101
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+def filter_campaigns(df, year):
+    return df[df['start_date'].dt.year == year]
+
+
+result = {'type': '', 'value': None}
+filtered_campaigns = filter_campaigns(dfs[0], 2019)
+result['type'] = 'number'
+result['value'] = filtered_campaigns.shape[0]
+print(result)
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 6, in <module>
+  File "<string>", line 2, in filter_campaigns
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/accessor.py", line 181, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/indexes/accessors.py", line 506, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:04:58 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:05:07 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:05:07 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1487,Campaign: 2023-03-08,2023-03-08,39,1,5,1367.0,1664.0,2061.0,1587.0,1084.0,1440.0,20095.0,20754.0,613,174
+605,Campaign: 2020-08-23,2020-08-23,58,4,1,1913.0,1470.0,2374.0,1609.0,1719.0,2300.0,27495.0,26172.0,1339,142
+1719,Campaign: 2023-01-10,2023-01-10,53,5,5,1070.0,1426.0,1520.0,2268.0,1229.0,1938.0,20839.0,22863.0,1987,101
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ how many campaigns ran in 2019?
+
+You generated this python code:
+def filter_campaigns(df, year):
+    return df[df['start_date'].dt.year == year]
+
+
+result = {'type': '', 'value': None}
+filtered_campaigns = filter_campaigns(dfs[0], 2019)
+result['type'] = 'number'
+result['value'] = filtered_campaigns.shape[0]
+print(result)
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 6, in <module>
+  File "<string>", line 2, in filter_campaigns
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/accessor.py", line 181, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandas/core/indexes/accessors.py", line 506, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:05:07 [INFO] Code generated:
+            ```
+            def filter_campaigns(dfs):
+    return dfs[dfs['start_date'].str[:4] == '2019']
+
+result = {}
+filtered_campaigns = filter_campaigns(dfs[0])
+result['type'] = 'number'
+result['value'] = filtered_campaigns.shape[0]
+print(result)
+            ```
+            
+2024-08-03 23:05:07 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:05:07 [INFO] 
+Code running:
+```
+def filter_campaigns(dfs):
+    return dfs[dfs['start_date'].str[:4] == '2019']
+
+
+result = {}
+filtered_campaigns = filter_campaigns(dfs[0])
+result['type'] = 'number'
+result['value'] = filtered_campaigns.shape[0]
+print(result)
+        ```
+2024-08-03 23:05:07 [INFO] Executing Step 7: ResultValidation
+2024-08-03 23:05:07 [INFO] Answer: {'type': 'number', 'value': 279}
+2024-08-03 23:05:07 [INFO] Executing Step 8: ResultParsing
+2024-08-03 23:05:23 [INFO] Question: show the first 5 rows
+2024-08-03 23:05:23 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:05:23 [INFO] Prompt ID: 68f9de6e-1911-4cb8-985d-943ec1085f6c
+2024-08-03 23:05:23 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:05:23 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:05:23 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:05:23 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:05:23 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+546,Campaign: 2019-06-19,2019-06-19,51,2,2,1225.0,1316.0,1938.0,1685.0,1581.0,2169.0,21978.0,21686.0,1319,161
+890,Campaign: 2018-10-27,2018-10-27,57,3,5,2165.0,1221.0,1401.0,1104.0,1419.0,1960.0,19920.0,19940.0,1200,51
+1347,Campaign: 2019-01-07,2019-01-07,17,2,2,1553.0,864.0,898.0,1453.0,1046.0,1411.0,15574.0,14903.0,699,110
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ show the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 23:05:23 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:05:46 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:05:46 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+546,Campaign: 2019-06-19,2019-06-19,51,2,2,1225.0,1316.0,1938.0,1685.0,1581.0,2169.0,21978.0,21686.0,1319,161
+890,Campaign: 2018-10-27,2018-10-27,57,3,5,2165.0,1221.0,1401.0,1104.0,1419.0,1960.0,19920.0,19940.0,1200,51
+1347,Campaign: 2019-01-07,2019-01-07,17,2,2,1553.0,864.0,898.0,1453.0,1046.0,1411.0,15574.0,14903.0,699,110
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ show the first 5 rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 23:05:46 [INFO] Code generated:
+            ```
+            Python
+# TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Initialize an empty list 'dfs' of type DataFrame
+dfs = [pd.DataFrame({
+    "id": [546, 890, 1347],
+    "name": ["Campaign: 2019-06-19", "Campaign: 2018-10-27", "Campaign: 2019-01-07"],
+    "start_date": ["2019-06-19", "2018-10-27", "2019-01-07"],
+    "duration": [51, 57, 17],
+    "customer_segment_id": [2, 3, 2],
+    "target_audience_id": [2, 5, 2],
+    "spend_email": [1225.0, 2165.0, 1553.0],
+    "spend_facebook": [1316.0, 1221.0, 864.0],
+    "spend_google_ads": [1938.0, 1401.0, 898.0],
+    "spend_instagram": [1685.0, 1104.0, 1453.0],
+    "spend_website": [1581.0, 1419.0, 1046.0],
+    "spend_youtube": [2169.0, 1960.0, 1411.0],
+    "projected_revenue_total": [21978.0, 19920.0, 15574.0],
+    "actual_revenue_total": [21686.0, 19940.0, 14903.0],
+    "impressions": [1319, 1200, 699],
+    "clicks": [161, 51, 110]
+})]
+
+# Update your initial code:
+result = {
+    "type": "dataframe",
+    "value": dfs[0].head(5)
+}
+
+print(result)  # prints the first 5 rows of the dataframe
+            ```
+            
+2024-08-03 23:05:46 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:05:46 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:05:46 [INFO] 
+Code running:
+```
+Python
+result = {'type': 'dataframe', 'value': dfs[0].head(5)}
+print(result)
+        ```
+2024-08-03 23:05:46 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:05:46 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-08-03 23:05:46 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 23:05:46 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:05:46 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:05:46 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+546,Campaign: 2019-06-19,2019-06-19,51,2,2,1225.0,1316.0,1938.0,1685.0,1581.0,2169.0,21978.0,21686.0,1319,161
+890,Campaign: 2018-10-27,2018-10-27,57,3,5,2165.0,1221.0,1401.0,1104.0,1419.0,1960.0,19920.0,19940.0,1200,51
+1347,Campaign: 2019-01-07,2019-01-07,17,2,2,1553.0,864.0,898.0,1453.0,1046.0,1411.0,15574.0,14903.0,699,110
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ show the first 5 rows
+
+You generated this python code:
+Python
+result = {'type': 'dataframe', 'value': dfs[0].head(5)}
+print(result)
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:05:46 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:05:54 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:05:54 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+546,Campaign: 2019-06-19,2019-06-19,51,2,2,1225.0,1316.0,1938.0,1685.0,1581.0,2169.0,21978.0,21686.0,1319,161
+890,Campaign: 2018-10-27,2018-10-27,57,3,5,2165.0,1221.0,1401.0,1104.0,1419.0,1960.0,19920.0,19940.0,1200,51
+1347,Campaign: 2019-01-07,2019-01-07,17,2,2,1553.0,864.0,898.0,1453.0,1046.0,1411.0,15574.0,14903.0,699,110
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ show the first 5 rows
+
+You generated this python code:
+Python
+result = {'type': 'dataframe', 'value': dfs[0].head(5)}
+print(result)
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:05:54 [INFO] Code generated:
+            ```
+            import panda as pd
+
+# Assuming 'dfs' is your pandas DataFrame object
+result = dfs.head(5).to_dict('records')
+print(result)
+            ```
+            
+2024-08-03 23:05:54 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:05:54 [ERROR] Pipeline failed on step 2: Generated code includes import of panda which is not in whitelist.
+2024-08-03 23:05:54 [ERROR] Pipeline failed on step 6: Generated code includes import of panda which is not in whitelist.
+2024-08-03 23:08:02 [INFO] Question: return the first 5 rows
+2024-08-03 23:08:02 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:08:02 [INFO] Prompt ID: 65f15025-e48f-46bb-a51d-aadc0629ad98
+2024-08-03 23:08:02 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:08:02 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:08:02 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:08:02 [INFO] Using cached response
+2024-08-03 23:08:02 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:08:02 [INFO] Executing Step 2: Skipping...
+2024-08-03 23:08:02 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:08:02 [INFO] Executing Step 3: Skipping...
+2024-08-03 23:08:02 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:08:02 [INFO] Executing Step 4: Skipping...
+2024-08-03 23:08:02 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:08:02 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:08:02 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:08:02 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Here is the updated code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Declare variable dfs - contains list of DataFrames: 
+dataframes = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21,23,36],
+    'customer_segment_id':[1,4,4],
+    'target_audience_id':[3,1,3],
+
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here is the updated code:
+                ^^^^^^^
+SyntaxError: invalid syntax
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:08:02 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:08:11 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:08:11 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Here is the updated code:
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Declare variable dfs - contains list of DataFrames: 
+dataframes = [pd.DataFrame({
+    'id': ['474','1988','211'],
+    'name': ["Campaign: 2018-07-15","Campaign: 2023-01-04","Campaign: 2020-09-04"],
+    'start_date':['2018-07-15','2023-01-04','2020-09-04'],
+    'duration':[21,23,36],
+    'customer_segment_id':[1,4,4],
+    'target_audience_id':[3,1,3],
+
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 152, in get_code_to_run
+    code_to_run = self._clean_code(code, context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 470, in _clean_code
+    tree = ast.parse(code)
+  File "/usr/local/Caskroom/miniforge/base/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    Here is the updated code:
+                ^^^^^^^
+SyntaxError: invalid syntax
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:08:11 [INFO] Code generated:
+            ```
+            Python
+# Import required dependencies
+import pandas as pd
+
+# Read your DataFrame (replace 'df.csv' with your actual CSV file name)
+dfs = pd.read_csv('df.csv')
+
+# Return the first 5 rows
+print(dfs.head(5))
+            ```
+            
+2024-08-03 23:08:11 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:08:11 [INFO] 
+Code running:
+```
+Python
+print(dfs.head(5))
+        ```
+2024-08-03 23:08:11 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:08:11 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-08-03 23:08:11 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 23:08:11 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:08:11 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:08:11 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Python
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:08:11 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:08:15 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:08:15 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+Python
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:08:15 [INFO] Code generated:
+            ```
+            print(dfs.head(5))
+            ```
+            
+2024-08-03 23:08:15 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:08:15 [INFO] 
+Code running:
+```
+print(dfs.head(5))
+        ```
+2024-08-03 23:08:15 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+2024-08-03 23:08:15 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-08-03 23:08:15 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:08:15 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:08:15 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:08:15 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:08:32 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:08:32 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:08:32 [INFO] Code generated:
+            ```
+            import pandas as pd
+
+# Define your dataframe string
+data_str = """id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+
+# Create a DataFrame from the data string
+dfs = pd.read_csv(StringIO(data_str))
+
+# Now you can return the first 5 rows using head()
+print(dfs.head(5))
+            ```
+            
+2024-08-03 23:08:32 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:08:32 [INFO] 
+Code running:
+```
+data_str = """id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+print(dfs.head(5))
+        ```
+2024-08-03 23:08:32 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 5, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+2024-08-03 23:08:32 [WARNING] Failed to execute code retrying with a correction framework [retry number: 3]
+2024-08-03 23:08:32 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:08:32 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:08:32 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+data_str = """id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 5, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:08:32 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:08:51 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:08:51 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ return the first 5 rows
+
+You generated this python code:
+data_str = """id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+print(dfs.head(5))
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 5, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:08:51 [INFO] Code generated:
+            ```
+            import pandas as pd
+
+data_str = """id,name,start_ date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+
+dfs = pd.read_csv(StringIO(data_str))
+print(dfs.head(5))
+            ```
+            
+2024-08-03 23:08:51 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:08:51 [INFO] 
+Code running:
+```
+data_str = """id,name,start_ date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+749,Campaign: 2022-04-03,2022-04-03,25,5,5,1536.0,1515.0,586.0,1175.0,860.0,919.0,16115.0,15383.0,808,72
+190,Campaign: 2023-12-10,2023-12-10,50,5,3,1744.0,1731.0,1794.0,1152.0,1755.0,1338.0,20197.0,19480.0,1638,139
+1065,Campaign: 2022-04-22,2022-04-22,50,2,4,1413.0,1391.0,1358.0,1475.0,1784.0,1534.0,18678.0,18004.0,687,178"""
+print(dfs.head(5))
+        ```
+2024-08-03 23:08:51 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 5, in <module>
+AttributeError: 'list' object has no attribute 'head'
+
+2024-08-03 23:08:51 [ERROR] Pipeline failed on step 6: 'list' object has no attribute 'head'
+2024-08-03 23:09:32 [INFO] Question: make a histogram of the number of campaigns run by year
+2024-08-03 23:09:32 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:09:32 [INFO] Prompt ID: 3a5e4e71-c713-415c-8cf1-53fe69dabcbb
+2024-08-03 23:09:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:09:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:09:32 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:09:32 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:09:32 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1184,Campaign: 2022-06-17,2022-06-17,16,2,2,1144.0,1826.0,1126.0,1703.0,1454.0,1151.0,18146.0,17660.0,1799,66
+820,Campaign: 2021-10-02,2021-10-02,17,3,2,1074.0,1101.0,929.0,615.0,818.0,1162.0,13127.0,13106.0,533,145
+1452,Campaign: 2019-12-19,2019-12-19,12,2,5,1056.0,1164.0,1843.0,597.0,1322.0,647.0,14832.0,16070.0,1696,146
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ make a histogram of the number of campaigns run by year
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 23:09:32 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:09:53 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:09:53 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1184,Campaign: 2022-06-17,2022-06-17,16,2,2,1144.0,1826.0,1126.0,1703.0,1454.0,1151.0,18146.0,17660.0,1799,66
+820,Campaign: 2021-10-02,2021-10-02,17,3,2,1074.0,1101.0,929.0,615.0,818.0,1162.0,13127.0,13106.0,533,145
+1452,Campaign: 2019-12-19,2019-12-19,12,2,5,1056.0,1164.0,1843.0,597.0,1322.0,647.0,14832.0,16070.0,1696,146
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ make a histogram of the number of campaigns run by year
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 23:09:53 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load data
+dfs = []  # You provided this already
+
+df1 = pd.DataFrame([
+    [1184, "Campaign: 2022-06-17", "2022-06-17", 16, 2, 2, 1144.0, 1826.0, 1126.0, 1703.0, 1454.0, 1151.0, 18146.0, 17660.0, 1799, 66],
+    # Your data is missing some rows...
+], columns=['id', 'name', 'start_date', 'duration', 'customer_segment_id', 'target_audience_id', 'spend_email', 'spend_facebook', 'spend_google_ads', 'spend_instagram', 'spend_website', 'spend_youtube', 'projected_revenue_total', 'actual_revenue_total', 'impressions', 'clicks'])
+
+dfs.append(df1)
+
+# Extract the year from each campaign's start date
+years = [row[2].split('-')[0] for row in df1.itertuples()]
+
+# Create a histogram of the number of campaigns run by year
+plt.hist(years, bins=years, edgecolor='black')
+
+# Set title and labels
+plt.title('Number of Campaigns Run By Year')
+plt.xlabel('Year')
+plt.ylabel('Count')
+
+# Save the plot as PNG
+plt.savefig('campain_year_histogram.png', bbox_inches='tight')
+
+# Declare result var:
+result = {"type": "plot", "value": "campaign_year_histogram.png"}
+print(result)
+            ```
+            
+2024-08-03 23:09:53 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:09:53 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:09:53 [INFO] Saving charts to /Users/justinchung/Coding/Projects/pandasai_chatbot/exports/charts/temp_chart.png
+2024-08-03 23:09:53 [INFO] 
+Code running:
+```
+df1 = pd.DataFrame([[1184, 'Campaign: 2022-06-17', '2022-06-17', 16, 2, 2, 1144.0, 1826.0, 1126.0, 1703.0, 1454.0, 1151.0, 18146.0, 17660.0, 1799, 66]], columns=['id', 'name', 'start_date', 'duration', 'customer_segment_id', 'target_audience_id', 'spend_email', 'spend_facebook', 'spend_google_ads', 'spend_instagram', 'spend_website', 'spend_youtube', 'projected_revenue_total', 'actual_revenue_total', 'impressions', 'clicks'])
+dfs.append(df1)
+years = [row[2].split('-')[0] for row in df1.itertuples()]
+plt.hist(years, bins=years, edgecolor='black')
+plt.title('Number of Campaigns Run By Year')
+plt.xlabel('Year')
+plt.ylabel('Count')
+plt.savefig('/Users/justinchung/Coding/Projects/pandasai_chatbot/exports/charts/temp_chart.png', bbox_inches='tight')
+result = {'type': 'plot', 'value': '/Users/justinchung/Coding/Projects/pandasai_chatbot/exports/charts/temp_chart.png'}
+print(result)
+        ```
+2024-08-03 23:09:53 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:09:53 [INFO] Executing Step 7: ResultValidation
+2024-08-03 23:09:53 [INFO] Answer: {'type': 'plot', 'value': '/Users/justinchung/Coding/Projects/pandasai_chatbot/exports/charts/temp_chart.png'}
+2024-08-03 23:09:53 [INFO] Executing Step 8: ResultParsing
+2024-08-03 23:10:31 [INFO] Question: What's the average revenue for campaigns run in 2023?
+2024-08-03 23:10:31 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:10:31 [INFO] Prompt ID: 1be7fc16-8b15-422b-b3b0-16e364b67dcd
+2024-08-03 23:10:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:10:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:10:31 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:10:31 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:10:31 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+304,Campaign: 2022-05-24,2022-05-24,12,1,3,1580.0,1003.0,1365.0,887.0,857.0,1518.0,15756.0,15519.0,584,187
+1662,Campaign: 2020-11-20,2020-11-20,14,1,1,1086.0,747.0,1650.0,1196.0,843.0,1794.0,15524.0,16732.0,1089,154
+239,Campaign: 2018-01-08,2018-01-08,45,4,4,995.0,1540.0,1210.0,1304.0,1843.0,1063.0,17222.0,18242.0,1700,75
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ What's the average revenue for campaigns run in 2023?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 23:10:31 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:10:52 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:10:52 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+304,Campaign: 2022-05-24,2022-05-24,12,1,3,1580.0,1003.0,1365.0,887.0,857.0,1518.0,15756.0,15519.0,584,187
+1662,Campaign: 2020-11-20,2020-11-20,14,1,1,1086.0,747.0,1650.0,1196.0,843.0,1794.0,15524.0,16732.0,1089,154
+239,Campaign: 2018-01-08,2018-01-08,45,4,4,995.0,1540.0,1210.0,1304.0,1843.0,1063.0,17222.0,18242.0,1700,75
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ What's the average revenue for campaigns run in 2023?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 23:10:52 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Load all dataframes from 'campaigns'
+dfs = []
+
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+
+# Check if there's at least one dataframe
+if len(dfs) == 0:
+    print("No campaigns found.")
+else:
+
+    # Initialize an empty list to store start year of each campaign
+    start_years = []
+
+    # Iterate through all dataframes and extract start year from each
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+
+    # Calculate average revenue for campaigns run in 2023
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+
+    # Declare result var:
+    result = {"type": "number", "value": f"The average revenue for campaigns run in 2023 is {average_revenue:.2f}."
+}
+            ```
+            
+2024-08-03 23:10:52 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:10:52 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:10:52 [INFO] 
+Code running:
+```
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+        ```
+2024-08-03 23:10:52 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:10:52 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'open' is not defined
+
+2024-08-03 23:10:52 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 23:10:52 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:10:52 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:10:52 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+304,Campaign: 2022-05-24,2022-05-24,12,1,3,1580.0,1003.0,1365.0,887.0,857.0,1518.0,15756.0,15519.0,584,187
+1662,Campaign: 2020-11-20,2020-11-20,14,1,1,1086.0,747.0,1650.0,1196.0,843.0,1794.0,15524.0,16732.0,1089,154
+239,Campaign: 2018-01-08,2018-01-08,45,4,4,995.0,1540.0,1210.0,1304.0,1843.0,1063.0,17222.0,18242.0,1700,75
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ What's the average revenue for campaigns run in 2023?
+
+You generated this python code:
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'open' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:10:52 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:11:07 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:11:07 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+304,Campaign: 2022-05-24,2022-05-24,12,1,3,1580.0,1003.0,1365.0,887.0,857.0,1518.0,15756.0,15519.0,584,187
+1662,Campaign: 2020-11-20,2020-11-20,14,1,1,1086.0,747.0,1650.0,1196.0,843.0,1794.0,15524.0,16732.0,1089,154
+239,Campaign: 2018-01-08,2018-01-08,45,4,4,995.0,1540.0,1210.0,1304.0,1843.0,1063.0,17222.0,18242.0,1700,75
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ What's the average revenue for campaigns run in 2023?
+
+You generated this python code:
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'open' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 23:11:07 [INFO] Code generated:
+            ```
+            from io import open
+import ast
+
+dfs = []
+
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(ast.literal_eval(line))
+
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023-'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+            ```
+            
+2024-08-03 23:11:07 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 23:11:07 [ERROR] Pipeline failed on step 2: Code shouldn't use 'os', 'io' or 'chr', 'b64decode' functions as this could lead to malicious code execution.
+2024-08-03 23:11:07 [ERROR] Pipeline failed on step 6: Code shouldn't use 'os', 'io' or 'chr', 'b64decode' functions as this could lead to malicious code execution.
+2024-08-03 23:12:49 [INFO] Question: What's the average revenue for campaigns run in 2023?
+2024-08-03 23:12:49 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:12:49 [INFO] Prompt ID: 69ebdf6c-0b53-41af-9ec7-2a0ca82d74ab
+2024-08-03 23:12:49 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:12:49 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:12:49 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:12:49 [INFO] Using cached response
+2024-08-03 23:12:49 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:12:49 [INFO] Executing Step 2: Skipping...
+2024-08-03 23:12:49 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:12:49 [INFO] Executing Step 3: Skipping...
+2024-08-03 23:12:49 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:12:49 [INFO] Executing Step 4: Skipping...
+2024-08-03 23:12:49 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:12:49 [INFO] 
+Code running:
+```
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+        ```
+2024-08-03 23:12:49 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:12:49 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'open' is not defined
+
+2024-08-03 23:12:49 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 23:12:49 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 23:12:49 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 23:12:49 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1652,Campaign: 2021-05-22,2021-05-22,27,3,5,1124.0,1216.0,971.0,536.0,871.0,574.0,11596.0,10644.0,575,107
+497,Campaign: 2022-12-15,2022-12-15,35,4,3,1769.0,1709.0,1892.0,1787.0,1483.0,1125.0,21894.0,19874.0,1911,146
+68,Campaign: 2024-05-11,2024-05-11,23,5,4,1218.0,884.0,1041.0,1469.0,843.0,1159.0,16199.0,0.0,0,0
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ What's the average revenue for campaigns run in 2023?
+
+You generated this python code:
+with open('campaigns', 'r') as file:
+    for line in file:
+        dfs.append(eval(line))
+if len(dfs) == 0:
+    print('No campaigns found.')
+else:
+    start_years = []
+    for df in dfs:
+        if isinstance(df, dict):
+            if 'start_date' in df and df['start_date'].startswith('2023'):
+                start_years.append(int(df['start_date'][20:]))
+    total_revenue = 0
+    num_campaigns = len(start_years)
+    if num_campaigns > 0:
+        for df in dfs:
+            if isinstance(df, dict) and int(df['start_date'][20:]) in start_years:
+                total_revenue += float(df['actual_ revenue_total'])
+        average_revenue = total_revenue / num_campaigns
+    else:
+        average_revenue = 0
+    result = {'type': 'number', 'value': f'The average revenue for campaigns run in 2023 is {average_revenue:.2f}.'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/Users/justinchung/Coding/Projects/pandasai_chatbot/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'open' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 23:12:49 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 23:12:59 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:12:59 [ERROR] Pipeline failed on step 1: No code found in the response
+2024-08-03 23:12:59 [ERROR] Pipeline failed on step 6: No code found in the response
+2024-08-03 23:13:45 [INFO] Question: how many campaigns ran in 2023?
+2024-08-03 23:13:45 [INFO] Running PandasAI with local LLM...
+2024-08-03 23:13:45 [INFO] Prompt ID: 47a7eff8-9203-45c7-9445-e8f3b4675b99
+2024-08-03 23:13:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 23:13:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 23:13:45 [INFO] Executing Step 1: CacheLookup
+2024-08-03 23:13:45 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 23:13:45 [INFO] Using prompt: <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1300,Campaign: 2022-03-02,2022-03-02,39,4,3,2086.0,1091.0,1797.0,1360.0,1193.0,1519.0,19319.0,20289.0,755,129
+121,Campaign: 2023-07-03,2023-07-03,27,4,4,845.0,890.0,1230.0,1043.0,873.0,539.0,12458.0,12544.0,987,180
+390,Campaign: 2018-01-14,2018-01-14,40,4,1,1301.0,1817.0,1621.0,1348.0,1444.0,991.0,19517.0,19431.0,1359,180
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2023?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 23:13:45 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 23:14:08 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-03 23:14:08 [INFO] Prompt used:
+            <dataframe name="campaigns">
+dfs[0]:2019x16
+id,name,start_date,duration,customer_segment_id,target_audience_id,spend_email,spend_facebook,spend_google_ads,spend_instagram,spend_website,spend_youtube,projected_revenue_total,actual_revenue_total,impressions,clicks
+1300,Campaign: 2022-03-02,2022-03-02,39,4,3,2086.0,1091.0,1797.0,1360.0,1193.0,1519.0,19319.0,20289.0,755,129
+121,Campaign: 2023-07-03,2023-07-03,27,4,4,845.0,890.0,1230.0,1043.0,873.0,539.0,12458.0,12544.0,987,180
+390,Campaign: 2018-01-14,2018-01-14,40,4,1,1301.0,1817.0,1621.0,1348.0,1444.0,991.0,19517.0,19431.0,1359,180
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many campaigns ran in 2023?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 23:14:08 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Load the campaign data
+dfs = [pd.DataFrame({'id': [1300, 121, 390], 
+                     'name': ['Campaign: 2022-03-02', 'Campaign: 2023-07-03', 'Campaign: 2018-01-14'],
+                     'start_date': ['2022-03-02', '2023-07-03', '2018-01-14'],
+                     'duration': [39, 27, 40],
+                     'customer_segment_id': [4, 4, 1],
+                     'target_audience_id': [3, 4, 1],
+                     'spend_email': [2086.0, 845.0, 1301.0],
+                     'spend_facebook': [1091.0, 890.0, 1817.0],
+                     'spend_google_ads': [1797.0, 1230.0, 1621.0],
+                     'spend-instagram': [1360.0, 1043.0, 1348.0],
+                     'spend_website': [1193.0, 873.0, 1444.0],
+                     'spend_youtube': [1519.0, 539.0, 991.0],
+                     'projected_revenue_total': [19319.0, 12458.0, 19517.0],
+                     'actual_ revenue_total': [20289.0, 12544.0, 19431.0],
+                     'impressions': [755, 987, 1359],
+                     'clicks': [129, 180, 180]})]
+
+# Filter the campaigns that ran in 2023
+campaigns_in_2023 = dfs[1:]  # only keep the second and subsequent DataFrames
+
+# Count the number of campaigns that ran in 2023
+num_campaigns = len(campaigns_in_2023)
+
+# Declare result variable
+result = {"type": "string", "value": f"Number of campaigns that ran in 2023: {num_campaigns}."}
+
+print(result)
+            ```
+            
+2024-08-03 23:14:08 [INFO] Executing Step 4: CachePopulation
+2024-08-03 23:14:08 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 23:14:08 [INFO] 
+Code running:
+```
+campaigns_in_2023 = dfs[1:]
+num_campaigns = len(campaigns_in_2023)
+result = {'type': 'string', 'value': f'Number of campaigns that ran in 2023: {num_campaigns}.'}
+print(result)
+        ```
+2024-08-03 23:14:08 [INFO] Executing Step 6: CodeExecution
+2024-08-03 23:14:08 [INFO] Executing Step 7: ResultValidation
+2024-08-03 23:14:08 [INFO] Answer: {'type': 'string', 'value': 'Number of campaigns that ran in 2023: 0.'}
+2024-08-03 23:14:08 [INFO] Executing Step 8: ResultParsing
